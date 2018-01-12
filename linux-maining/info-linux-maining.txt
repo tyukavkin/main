@@ -1,0 +1,45 @@
+-----Майнинг на Linux Mint (Ubuntu) + Nvidia + AMD + майнеры + разгон. Этакий How-To для новичков.
+https://miningclub.info/threads/majning-na-linux-mint-ubuntu-nvidia-amd-majnery-razgon-ehtakij-how-to-dlja-novichkov.19005/
+
+https://goo.gl/o4ECRK #короткая ссылка
+---------------------------------
+Установка драйверов NVIDIA
+https://losst.ru/ustanovka-drajvera-nvidia-v-ubuntu-15-10
+https://youtu.be/1UwdbukLn_s
+
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update && sudo apt-get install nvidia-НОМЕР версии
+
+-----------------
+Спец версия Linux
+https://simplemining.net/ - дистиб и контора
+https://golos.io/mining/@sxiii/smos
+https://bitcointalk.org/index.php?topic=1854250.0
+
+-------------------
+Настройка Эфира на linux
+https://losst.ru/majning-efira-na-ubuntu
+------------------------
+УСТАНОВКА ДРАЙВЕРА NVIDIA В UBUNTU 16.04
+https://losst.ru/ustanovka-drajvera-nvidia-v-ubuntu-15-10
+------------------------
+
+Настройка Ubuntu после установки
+sudo apt-get update
+sudo apt full-upgrade -y
+sudo apt-get install mc -y
+
+
+-------------Пример добавления репозитария
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+----------
+https://bitcointalk.org/?topic=1707546.0 - EWBF cuda zec mainer
+https://miningclub.info/resources/dstms-zcash-equihash-nvidia-miner-v0-5-8-linux-windows.265/ - dstm's ZCash / Equihash Nvidia Miner v0.5.8 (Linux / Windows) v0.5.8
+https://miningclub.info/resources/categories/gpu-majnery.2/
+
+--------
+sudo apt-get install ssh #Выполните установку пакета SSH (сервер + клиент)
+sudo service ssh start #Запустите SSH сервер
+sudo systemctl enable ssh #Включите автоматический запуск SSH сервера при старте системы
+#Теперь Вы можете подключаться к Вашему новому серверу через SSH, например с помощью PuTTY
+----------
